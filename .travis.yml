@@ -10,7 +10,7 @@ script:
 - mvn -f de.cooperateproject.license clean verify
 deploy:
   provider: script
-  script: mvn deploy
+  script: mvn -f de.cooperateproject.license deploy
   on:
     branch: master
 cache:
