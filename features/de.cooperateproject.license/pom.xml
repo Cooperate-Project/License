@@ -4,12 +4,11 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>de.cooperateproject</groupId>
-		<artifactId>de.cooperateproject.parent</artifactId>
+		<groupId>de.cooperateproject.license</groupId>
+		<artifactId>de.cooperateproject.license.features</artifactId>
 		<version>1.0.0</version>
 	</parent>
 	<artifactId>de.cooperateproject.license</artifactId>
-	<version>1.0.0</version>
 	<packaging>eclipse-feature</packaging>
 	<name>Cooperate Modeling Environment License</name>
 
@@ -18,7 +17,6 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<tycho.version>0.26.0</tycho.version>
 	</properties>
-
 
 	<build>
 		<plugins>

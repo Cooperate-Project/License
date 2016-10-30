@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.cooperateproject.license"
+      label="Cooperate Project License"
+      version="1.0.0"
+      provider-name="Cooperate Project Team">
+
+   <description>
+      This feature holds the common license for all artifacts of the
+Cooperate Modeling Environment.
+   </description>
+
+   <copyright>
+      Copyright (c) 2015-2017 Cooperate Project Team
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+</feature>

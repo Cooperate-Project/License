@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/de.cooperateproject.license_1.0.0.jar" id="de.cooperateproject.license" version="1.0.0"/>
+</site>
