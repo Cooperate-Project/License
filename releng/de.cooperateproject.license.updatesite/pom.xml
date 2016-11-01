@@ -20,7 +20,7 @@
 			<plugin>
 				<groupId>de.cooperateproject.maven</groupId>
 				<artifactId>de.cooperateproject.maven.bintray.deploy</artifactId>
-				<version>0.1.0</version>
+				<version>${bintray.deploy.plugin.version}</version>
 				<executions>
 					<execution>
 						<id>bintray-deployment</id>
