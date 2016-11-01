@@ -5,9 +5,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>de.cooperateproject</groupId>
-		<artifactId>de.cooperateproject.parent</artifactId>
-		<version>1.0.0</version>
-		<relativePath></relativePath>
+		<artifactId>de.cooperateproject.parent.eclipse</artifactId>
+		<version>1.0.1</version>
 	</parent>
 	<groupId>de.cooperateproject.license</groupId>
 	<artifactId>de.cooperateproject.license.parent</artifactId>
@@ -25,6 +24,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<tycho.version>0.26.0</tycho.version>
 		<maven.deploy-plugin.version>2.8.2</maven.deploy-plugin.version>
+		<bintray.deploy.repository>CooperateLicense</bintray.deploy.repository>
 	</properties>
 
 	<build>
